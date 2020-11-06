@@ -1,0 +1,194 @@
+body 
+{
+	background: black;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header-menu {
+  padding: 14px;
+  padding-right: 1px;
+  text-align: left;
+  color: #ffffff;
+  background: #000000;
+  font-size: 32px;
+  font-family: 'Teko', sans-serif;
+}
+
+.link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.link:unhover {
+	text-decoration: none;
+}
+
+.headerdivider {
+    display: inline-block;
+    border-left: 5px solid #ccc;
+    margin: 0 5px;
+    height: 25px;
+}
+
+.bkg {
+	padding: 1px;
+	background-image: url("./background.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.bkg-small {
+	padding: 1px;
+	background-image: url("../styles/background.jpg");
+	width: 100%;
+	height: 50px;
+	background-size: cover;
+}
+
+.bkg-title {
+	justify-content: center;
+	font-size: 64px;
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	padding: 24px;
+	color:white;
+	text-shadow: black 0px 0 2px;
+}
+
+.bkg-title-small {
+	font-size: 32px;
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	color: white;
+	text-shadow: black 0px 0 2px;
+	margin: 4px;
+}
+
+.about-us {
+	color: white;
+	font-size: 32px;
+    font-family: 'Teko', sans-serif;
+	
+}
+
+.who-we-are-text {
+	padding-left: 50px;
+	text-decoration: underline;
+}
+
+.who-we-are-desc {
+	margin: 30px;
+	padding-left: 50px;
+}
+
+.contact-us {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Teko', sans-serif;
+}
+
+.contact-us-link {
+	display: block;
+	color: white;
+}
+
+.our-artists {
+	
+}
+
+.artist-align-left {
+	padding-left: 50px;
+	display: inline-block;
+}
+
+.artist-align-left-title {
+	text-align: left;
+	text-decoration: underline;
+	font-size: 50px;
+	font-family: 'Teko', sans-serif;
+	color: white;
+	display: inline;
+}
+
+.artist-align-left-img {
+	width: 250px;
+	float: left;
+	padding-right: 20px;
+}
+
+.artist-align-left-p {
+	color: white;
+	font-size: 22px;
+	font-family: 'Teko', sans-serif;
+	display: inline;
+	width: 50%;
+}
+
+.artist-align-right {
+	padding-left: 50px;
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.artist-align-right-title {
+	text-align: left;
+	text-decoration: underline;
+	font-size: 50px;
+	font-family: 'Teko', sans-serif;
+	color: white;
+	display: inline;
+}
+
+.artist-align-right-img {
+	width: 250px;
+	float: left;
+	padding-right: 20px;
+}
+
+.artist-align-right-p {
+	color: white;
+	font-size: 22px;
+	font-family: 'Teko', sans-serif;
+	display: inline;
+}
+
+.listen {
+	color: white;
+	font-size: 50px;
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	padding: 1px;
+}
+
+.listen-desc {
+	text-align: center;
+	color: white;
+	font-size: 32px;
+	font-family: 'Teko', sans-serif;
+	padding-left: 10px;
+}
+
+.demo-box {
+	color: white;
+}
+
+.footer {
+	padding: 1px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	background: black;
+	font-size: 32px;
+  font-family: 'Teko', sans-serif;
+}

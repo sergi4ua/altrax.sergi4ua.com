@@ -1,0 +1,16 @@
+.album-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap
+}
+
+.album-item {
+	padding: 15px;
+}
+
+.album-item-img {
+	width: 350px;
+	height: 350px;
+	border: 2px solid #666;
+}
